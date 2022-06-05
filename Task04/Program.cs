@@ -12,7 +12,7 @@
         int max = a;
         if (a < b) max = b;
         if (b < c) max = c;
-        Console.WriteLine("Максимальное число:");
+        Console.Write("Максимальное число: ");
         Console.Write(max);
     }
 }
