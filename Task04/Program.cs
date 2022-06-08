@@ -11,7 +11,7 @@
         int c = Convert.ToInt32(Console.ReadLine());
         int max = a;
         if (a < b) max = b;
-        if (b < c) max = c;
+        if (max < c) max = c;
         Console.Write("Максимальное число: ");
         Console.Write(max);
     }
